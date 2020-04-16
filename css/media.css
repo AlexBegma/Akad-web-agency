@@ -1,0 +1,5 @@
+@media (max-width: 991px) {
+	.menu nav.descktop-nav {
+		display: none;
+	}
+}

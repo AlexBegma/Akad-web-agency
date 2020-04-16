@@ -138,3 +138,14 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 .second-level__link:hover {
 	padding-left: 30px;
 }
+
+/* mobile navbar */
+.mobile-navbar {
+	position: absolute;
+	display: none;
+	display: inline-block;
+	min-width: 300px;
+	top: 100px;
+	right: 0;
+	background-color: #60606e;
+}
