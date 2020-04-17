@@ -35,8 +35,8 @@ li {
 
 .container {
 	width: 1350px;
-	height: 100vh;
-	margin: 0 auto;
+/* 	height: 100vh;
+*/	margin: 0 auto;
 }
 
 /* Header */
@@ -182,7 +182,7 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	left: 50%;
 	transform: translate(-60%, -50%);
 	text-align: center;
-	opacity: 1;
+	opacity: 0;
 }
 
 .small-title {
@@ -298,4 +298,79 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 .btn.white{
 	background-color: #fff;
 	color:#7beec7;
+}
+
+/* services */
+.services {
+	margin-top: 220px;
+}
+
+.services__left {
+	height: 550px;
+}
+
+.services__left-uprow {
+	margin-bottom: 50px;
+}
+
+.services__title {
+	display: inline-block;
+	width: 50%;
+	margin: 0 auto 100px;
+	text-align: center;
+}
+
+.services__title span {
+	position: relative;
+	display: inline-block;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #60606e;
+	margin-bottom: 20px;
+}
+
+.services__title span::after {
+	position: absolute;
+	content: "";
+	top: 20px;
+	left: 0;
+	z-index: -1;
+	width: 60px;
+	height: 20px;
+	background-color: #7beec7;
+
+}
+
+.services__left-title {
+	width: 330px;
+}
+
+.services__title p {
+	line-height: 24px;
+	color: #60606e;
+}
+
+.icon {
+	display: block;
+	font-size: 36px;
+	margin-bottom: 10px;
+}
+
+.services__left ul li {
+	list-style: none;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #999;
+}
+
+.services__left-title {
+	font-size: 18px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
 }

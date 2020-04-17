@@ -2,4 +2,13 @@
 	.menu nav.descktop-nav {
 		display: none;
 	}
+
+	.btn{
+		margin: 20px 0;
+	}
+
+	.services__left {
+		text-align: center;
+		margin-bottom: 50px;
+	}
 }
