@@ -3,72 +3,123 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Akad-web-agency</title>
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<!--  подключение шрифтов -->
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-	<link rel="shortcut icon" type="image/x-icon" href="#">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+-->	<!-- favicon -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+<!-- Bootstrap -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<!-- fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+<!-- reset + normalize -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" href="css/animision.css">
-	<link rel="stylesheet" href="css/animision.min.css">
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/flexslider.css">
-	<link rel="stylesheet" href="css/ionicons.min.css">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/media.css.css">
+<link rel="stylesheet" href="css/animision.css">
+<link rel="stylesheet" href="css/animision.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/flexslider.css">
+<link rel="stylesheet" href="css/ionicons.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-	<header class="header">
-		<div class="container">
-			<div class="logo">
-				<a href="index.html">
-					<img src="images/logo.png" alt="logo">
-				</a>
-			</div>
-			<div class="menu">
-				<!-- descktop navbar -->
-				<nav class="descktop-nav">
-					<ul class="first-level">
-						<li><a href="index.html" class="first-level__link">home</a></li>
-						<li><a href="about.html" class="first-level__link">about us</a></li>
-						<li><a href="services.html" class="first-level__link">services</a></li>
-						<li><a href="#" class="first-level__link portfolio">portfolio</a>
-							<ul class="second-level">
-								<li><a href="portfolio-1.html" class="second-level__link">portfolio list</a></li>
-								<li><a href="single-project.html" class="second-level__link">single project 1</a></li>
-								<li><a href="single-project-2.html" class="second-level__link">single project 2</a></li>
-							</ul>
-						</li>
-						<li><a href="#" class="first-level__link blog">blog</a>
-							<ul class="second-level">
-								<li><a href="blog-1.html" class="second-level__link">posts list</a></li>
-								<li><a href="single-post.html" class="second-level__link">single post</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html" class="first-level__link">contact us</a></li>
-					</ul>
-				</nav>
-				<!-- mobile navbar -->
-				<div class="mobile-navbar">
-					<nav class="mobile-nav"></nav>
-					<div class="menu-icon">
-						<div class="line"></div>
-						<div class="line"></div>
-						<div class="line"></div>
+	<section class="main-header">
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-2">
+						<div class="logo">
+							<a href="index.html">
+								<img src="images/logo.png" alt="logo">
+							</a>
+						</div>
+					</div>
+					<div class="col-10">
+						<div class="menu">
+							<!-- descktop navbar -->
+							<nav class="descktop-nav">
+								<ul class="first-level">
+									<li><a href="index.html" class="first-level__link dropdown-item">home</a></li>
+									<li><a href="about.html" class="first-level__link dropdown-item">about us</a></li>
+									<li><a href="services.html" class="first-level__link dropdown-item">services</a></li>
+									<li><a href="#" class="first-level__link portfolio dropdown-item">portfolio</a>
+										<ul class="second-level">
+											<li><a href="portfolio-1.html" class="second-level__link dropdown-item">portfolio list</a></li>
+											<li><a href="single-project.html" class="second-level__link dropdown-item">single project 1</a></li>
+											<li><a href="single-project-2.html" class="second-level__link dropdown-item">single project 2</a></li>
+										</ul>
+									</li>
+									<li><a href="#" class="first-level__link blog dropdown-item">blog</a>
+										<ul class="second-level">
+											<li><a href="blog-1.html" class="second-level__link dropdown-item">posts list</a></li>
+											<li><a href="single-post.html" class="second-level__link dropdown-item">single post</a></li>
+										</ul>
+									</li>
+									<li><a href="contact.html" class="first-level__link dropdown-item">contact us</a></li>
+								</ul>
+							</nav>
+							<!-- mobile navbar -->
+							<div class="mobile-navbar">
+								<nav class="mobile-nav"></nav>
+								<div class="menu-icon">
+									<div class="line"></div>
+									<div class="line"></div>
+									<div class="line"></div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</header>
+		</header>
+		<section class="slide-header">
+			<div class="container">
+				<div class="row">
+					<ul class="sliders">
+						<li>
+							<div><span class="small-title">we're</span></div>
+							<div class="big-title">digital agency</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores cupiditate, earum facere. Laboriosam rem earum a laborum eveniet.</p>
+						</li>
+						<li>
+							<div><span class="small-title">we do</span></div>
+							<div class="big-title">creative stuff</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, nulla, tempora asperiores cumque nihil alias maiores ullam consequuntur temporibus.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="history-agency">
+			<div class="container">
+				<div class="row agency">
+					<div class="col-md-5 col-sm-12">
+						<div class="row">
+							<div class="agency__image">
+								<img src="images/pexels-photo-276502.jpeg" alt="agency">
+							</div>
+						</div>
+					</div>
+					<div class="offset-md-1 col-md-6 col-sm-12">
+						<div class="row">
+							<div class="title">
+								<span>history of agency</span>
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, libero. Temporibus excepturi omnis iste sequi exercitationem, nihil earum ea itaque, sit aliquid laborum quos pariatur dolorum, facere vel fugit repellat. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, libero. Temporibus excepturi omnis iste sequi exercitationem, nihil earum ea itaque.</p>
+							<a href="#" class="btn green">
+								<span>read more</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</section>
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
