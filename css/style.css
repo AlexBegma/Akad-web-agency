@@ -271,21 +271,6 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	color:#60606e;
 }
 
-/* .btn.green {
-	color: #fff;
-	float: right;
-	background-color: #7beec7;
-	height: 50px;
-	line-height: 50px;
-	min-width: 150px;
-	text-align: center;
-	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
-	text-transform: uppercase;
-	border-radius: 0;
-	padding: 0;
-} */
-
 .btn{
 	height: 50px;
 	line-height: 50px;
@@ -301,10 +286,10 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 }
 .btn:hover{
 	-webkit-transform:scale(1.01);
-	    -ms-transform:scale(1.01);
-	        transform:scale(1.01);
+	-ms-transform:scale(1.01);
+	transform:scale(1.01);
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.2);
-	        box-shadow: 0 0 10px rgba(0,0,0,.2);
+	box-shadow: 0 0 10px rgba(0,0,0,.2);
 }
 .btn.green{
 	background-color: #7beec7;
