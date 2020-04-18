@@ -182,7 +182,7 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	left: 50%;
 	transform: translate(-60%, -50%);
 	text-align: center;
-	opacity: 0;
+	opacity: 1;
 }
 
 .small-title {
@@ -303,6 +303,7 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 /* services */
 .services {
 	margin-top: 220px;
+	margin-bottom: 150px;
 }
 
 .services__left {
@@ -313,29 +314,33 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	margin-bottom: 50px;
 }
 
-.services__title {
+.services__title,
+.portfolio__title {
 	display: inline-block;
 	width: 50%;
 	margin: 0 auto 100px;
 	text-align: center;
 }
 
-.services__title span {
+.services__title span,
+.portfolio__title span {
 	position: relative;
 	display: inline-block;
 	z-index: 1;
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
 	font-size: 30px;
+	letter-spacing: 1.5px;
 	text-transform: uppercase;
 	color: #60606e;
 	margin-bottom: 20px;
 }
 
-.services__title span::after {
+.services__title span::after,
+.portfolio__title span::after {
 	position: absolute;
 	content: "";
-	top: 20px;
+	top: 15px;
 	left: 0;
 	z-index: -1;
 	width: 60px;
@@ -348,7 +353,9 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	width: 330px;
 }
 
-.services__title p {
+.services__title p,
+.portfolio__title p {
+	font-size: 16px;
 	line-height: 24px;
 	color: #60606e;
 }
@@ -373,4 +380,8 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
+}
+
+.services__right.wow img {
+	height: 500px;
 }
