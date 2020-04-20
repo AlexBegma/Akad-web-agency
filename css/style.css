@@ -314,6 +314,11 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	margin-bottom: 50px;
 }
 
+/* portfolio */
+.portfolio {
+	margin-bottom: 90px;
+}
+
 .services__title,
 .portfolio__title {
 	display: inline-block;
@@ -502,4 +507,117 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	transform: translateY(20px);
 	transition: all .5s ease-in-out .5s;
 	opacity: 0;
+}
+
+/* feedbackForm */
+.feedbackForm {
+	background-color: #7beec7;
+}
+
+.feedbackForm .container .row {
+
+}
+
+.left-side__row {
+	margin: 60px 0;
+}
+
+.left-side .row > span {
+	display: block;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 45px;
+}
+
+.btn.white-btn {
+	background-color: #fff;
+	color: #7beec7;
+}
+
+.btn .white-btn span {
+
+}
+
+.right-side {
+	background-color: #fff;
+	padding: 20px;
+	margin: 60px 0;
+}
+
+.right-side__row {
+	margin: 0;
+}
+
+.right-side__row > span {
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+
+.right-side p {
+	font-family: "Open sans", sans-serif;
+	color: #999;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+
+form {
+	display: block;
+}
+
+.input-block {
+	width: 530px;
+	height: 50px;
+	border: 1px solid rgba(0, 0, 0, .1);
+	margin-bottom: 30px;
+}
+
+.input-block input {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	border: 0;
+	float: left;
+	background-color: transparent;
+	z-index: 2;
+	font-size: 14px;
+	font-family: "Montserrat", sans-serif;
+	color: #9a9a9a;
+}
+
+.input-block span {
+	position: absolute;
+	top: 50%;
+	left: 20px;
+	padding: 0 20px;
+	transform: translateY(-50%);
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 12px;
+	text-transform: uppercase;
+	color:#cdcdcd;
+	-webkit-transition:all .2s ease-in-out;
+	transition:all .2s ease-in-out;
+	z-index: 1;
+}
+
+.btn.green-btn {
+	color: #fff;
+	background-color: #7beec7;
+}
+
+.input-block > span.active,
+.textarea_1 > span.active {
+	color: #7beec7;
+	font-size: 10px;
+	top: 0px;
+	left: 5px;
+	background-color: #fff;
+	padding: 5px;
 }
