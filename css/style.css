@@ -556,7 +556,8 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	font-family: "Montserrat", sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
-	letter-spacing: 1.5px;
+	letter-spacing: 1.3px;
+	margin-bottom: 10px;
 }
 
 
@@ -607,11 +608,6 @@ form {
 	z-index: 1;
 }
 
-.btn.green-btn {
-	color: #fff;
-	background-color: #7beec7;
-}
-
 .input-block > span.active,
 .textarea_1 > span.active {
 	color: #7beec7;
@@ -620,4 +616,78 @@ form {
 	left: 5px;
 	background-color: #fff;
 	padding: 5px;
+}
+
+/* Footer */
+.footer {
+	padding: 50px 0;
+}
+
+.footer__nav ul {
+	padding: 0;
+	margin: 0;
+}
+
+.footer__nav ul li {
+	list-style: none;
+	float: left;
+	margin: 0 20px;
+	padding: 0;
+}
+
+.footer__nav ul li:first-child {
+	margin: 0 20px 0 0;
+}
+
+.animation {
+	position: relative;
+	text-transform: uppercase;
+	color:#9a9a9a;
+}
+
+.animation::after {
+	position: absolute;
+	content: "";
+	bottom: -10px;
+	left: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #7beec7;
+	-webkit-transition: all .2s ease-in-out;
+	transition: all .2s ease-in-out;
+	opacity: 0;
+}
+
+.footer__nav-ul > li:hover > a::after {
+	opacity: 1;
+	width: 100%;
+}
+
+.row-right {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.rights {
+	margin-bottom: 25px;
+}
+
+.fab {
+	width: 34px;
+	height: 34px;
+}
+
+.social-icons {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	width: 250px;
+}
+
+.social-icons a:hover {
+	color: #7beec7;
+}
+
+ion-icon {
+	font-size: 24px;
 }
