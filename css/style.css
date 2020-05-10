@@ -197,8 +197,10 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 	padding: 10px 40px;
 	margin-bottom: 30px;
 	font-size: 48px;
+	font-weight: 700;
 	color: #60606e;
 	border: 10px solid #60606e;
+	text-transform: uppercase;
 }
 
 .sliders p {
@@ -688,6 +690,6 @@ form {
 	color: #7beec7;
 }
 
-ion-icon {
+i {
 	font-size: 24px;
 }
