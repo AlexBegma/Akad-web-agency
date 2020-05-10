@@ -40,13 +40,7 @@ li {
 
 /* Header */
 .main-header {
-	/* height: 550px;
-	width: 1350px;
-	width: 100%;
-	background: url('../images/site-hero2.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center; */
+	margin-bottom: 95px;
 }
 
 header.header {
@@ -184,8 +178,56 @@ nav.descktop-nav ul.first-level > li:hover > a::after {
 
 .about__big-title {
 	font-size: 36px;
+	margin-bottom: 22px;
 }
 
 .about__small-title {
 	font-size: 14px;
+}
+
+/* <section class="description"> */
+.description {
+	margin-bottom: 95px;
+}
+
+.description__title {
+	width: 50%;
+	margin: 0 auto 25px;
+	text-align: center;
+}
+
+.description__title span {
+	position: relative;
+	z-index: 1;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	color:#60606e;
+	position: relative;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.description__title span::after{
+	position: absolute;
+	content: "";
+	background-color: #7beec7;
+	top: 20px;
+	left: 0;
+	z-index: -1;
+	width: 60px;
+	height: 20px;
+}
+
+.description__title p {
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 1.3px;
+}
+
+.description p {
+	line-height: 24px;
+	color:#60606e;
+	line-height: 26px;
 }
