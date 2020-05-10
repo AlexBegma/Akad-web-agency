@@ -37,3 +37,155 @@ li {
 	width: 1350px;
 	margin: 0 auto;
 }
+
+/* Header */
+.main-header {
+	/* height: 550px;
+	width: 1350px;
+	width: 100%;
+	background: url('../images/site-hero2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center; */
+}
+
+header.header {
+	width: 100%;
+	height: 100px;
+	top: 0;
+	left: 0;
+	z-index: 11;
+}
+
+header.header .logo {
+	float: left;
+	height: 100px;
+	line-height: 100px;
+}
+
+.menu {
+	float: right;
+}
+
+/* descktop-nav */
+nav.descktop-nav {
+	float: left;
+}
+
+nav.descktop-nav ul.first-level > li {
+	position: relative;
+	float: left;
+}
+
+.first-level__link {
+	position: relative;
+	display: inline-block;
+	line-height: 100px;
+	transition: 0;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+}
+
+.first-level__link::after {
+	position: absolute;
+	content: "";
+	top: 50px;
+	left: 0;
+	width: 70%;
+	height: 1px;
+	background-color: #60606e;
+	opacity: 0;
+}
+
+nav.descktop-nav ul.first-level > li:hover > a::after {
+	top: 35px;
+	width: 70%;
+	opacity: 1;
+	transition: all .3s ease-in-out;
+}
+
+.second-level {
+	position: absolute;
+	display: none;
+	top: 70px;
+	left: 0;
+	min-width: 200px;
+	background-color: #60606e;
+	z-index: 999;
+}
+
+.second-level__link {
+	display: inline-block;
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	padding: 0 20px;
+	color: #fff;
+}
+
+.second-level__link:hover,
+.second-level > li:nth-child(even) > a:hover {
+	background-color: #404051;
+	color: #fff;
+}
+
+.second-level > li:nth-child(even) > a {
+	background-color: #585866;
+	color: #fff;
+}
+
+.first-level li:hover > ul.second-level {
+	display: block;
+	transition: all .3s ease;
+}
+
+.second-level__link:hover {
+	padding-left: 30px;
+}
+
+/* mobile navbar */
+.mobile-navbar {
+	position: absolute;
+	display: none;
+	display: inline-block;
+	min-width: 300px;
+	top: 100px;
+	right: 0;
+	background-color: #60606e;
+}
+
+/* <section class="about"> */
+.about {
+	position: relative;
+
+	height: 550px;
+	width: 1350px;
+	width: 100%;
+	background: url('../images/site-hero2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.about__page-title {
+	position: absolute;
+	top:50%;
+	left: 50%;
+	-webkit-transform:translate(-50%, -50%);
+	-ms-transform:translate(-50%, -50%);
+	transform:translate(-50%, -50%);
+	text-align: center;
+	text-transform: uppercase;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
+}
+
+.about__big-title {
+	font-size: 36px;
+}
+
+.about__small-title {
+	font-size: 14px;
+}
